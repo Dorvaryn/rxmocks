@@ -115,3 +115,5 @@ RxExpect.expect(
 Here are a list of useful links:
 
  * We always welcome people to contribute new features or bug fixes, [here is how](https://github.com/novoda/novoda/blob/master/CONTRIBUTING.md)
+ * If you have a problem check the [Issues Page](https://github.com/novoda/rxmocks/issues) first to see if we are working on it
+ * Looking for community help, browse the already asked [Stack Overflow Questions](http://stackoverflow.com/questions/tagged/support-rxmocks) or use the tag: `support-rxmocks` when posting a new question
