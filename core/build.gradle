@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'bintray-release'
+
+dependencies {
+    compile 'io.reactivex:rxjava:1.0.10'
+}
+
+publish {
+    repoName = 'maven'
+    userOrg = 'novoda'
+    groupId = 'com.novoda'
+    artifactId = 'rxmocks'
+    publishVersion = '0.1.2'
+    description = 'Mocks/Assertions for RxJava testing'
+    website = 'https://github.com/novoda/rxmocks'
+}
