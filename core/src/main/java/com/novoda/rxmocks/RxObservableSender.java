@@ -17,7 +17,7 @@ public class RxObservableSender<T> {
 
     /**
      * Send the events from {@code source} to the given mocked {@code observable}
-     * @param observable The mocked observable to injects the events into.
+     * @param observable The mocked observable to inject events into.
      */
     public void to(Observable<T> observable) {
         try {
