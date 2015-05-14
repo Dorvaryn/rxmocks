@@ -24,7 +24,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        testCompile 'com.novoda:rxmocks:0.1.2'
+        testCompile 'com.novoda:rxmocks:0.1.3'
     }
 }
 ```
