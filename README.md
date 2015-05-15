@@ -39,7 +39,7 @@ You can now use this interface to generate a mock as shown below.
 ```java
 public interface DataRepository {
 
-    Observable<User> getUser(String name);
+    Observable<User> getUser(String id);
 
     Observable<Articles> getArticles();
 
@@ -53,7 +53,7 @@ DataRepository mockedRepo = RxMocks.mock(DataRepository.class)
 
 **Inject data in provided Observables**
 ```java
-Observable<User> user = mockedRepo.getUser("some name");
+Observable<User> user = mockedRepo.getUser("id");
 
 ClassToTest testedObject = new ClassToTest(user);
 
